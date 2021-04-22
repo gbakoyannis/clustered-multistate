@@ -2,11 +2,9 @@
 R code for nonparametric analysis of clustered multistate processes
 
 ## Description
-
-This repository contains R functions for nonparametric analysis of (continuous-time) multistate processes with cluster-correlated observations. These functions currently support nonparametric estimation of population-averaged transition probabilities, calculation of 95% pointwise confidence intervals and simultaneous confidence bands, and two-sample Kolmogorov-Smirnov-type tests. The functions do not impose assumptions regarding the within-cluster dependence and can be used for both Markov and non-Markov processes. Right censoring, left truncation, and association between cluster size and the multistate process (informative cluster size) are allowed.
+This repository contains R functions for nonparametric analysis of (continuous-time) multistate processes with cluster-correlated observations (Bakoyannis, 2020; https://onlinelibrary.wiley.com/doi/10.1111/biom.13327). These functions currently support nonparametric estimation of population-averaged transition probabilities, calculation of 95% pointwise confidence intervals and simultaneous confidence bands, and two-sample Kolmogorov-Smirnov-type tests. The functions do not impose assumptions regarding the within-cluster dependence and can be used for both Markov and non-Markov processes. Right censoring, left truncation, and association between cluster size and the multistate process (informative cluster size) are allowed. Currently, the functions utilize the R package `mstate` and thus they are only applicable to progressive multistate models.
 
 ## Main Functions
-
 The main functions are `patp()` and `patp_test()`. Both functions are beta version.
 
 ### Dependencies
