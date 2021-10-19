@@ -1,5 +1,5 @@
 # clustered-multistate
-R code for nonparametric analysis of clustered multistate processes (Bakoyannis, 2020; https://onlinelibrary.wiley.com/doi/10.1111/biom.13327).
+R code for nonparametric analysis of clustered multistate processes (Bakoyannis, 2021; https://onlinelibrary.wiley.com/doi/10.1111/biom.13327).
 
 ## Description
 This repository contains R functions for nonparametric analysis of (continuous-time) multistate processes with cluster-correlated observations. These functions currently support nonparametric estimation of population-averaged transition probabilities, calculation of 95% pointwise confidence intervals and simultaneous confidence bands, and two-sample Kolmogorov-Smirnov-type tests. The functions do not impose assumptions regarding the within-cluster dependence and can be used for both Markov and non-Markov processes. Right censoring, left truncation, and association between cluster size and the multistate process (informative cluster size) are allowed. Currently, the functions utilize the R package `mstate` and thus they are only applicable to progressive multistate models.
