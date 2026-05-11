@@ -1,3 +1,5 @@
+**Note:** This repository contains the original R scripts that > accompanied Bakoyannis (2021), Biometrics. For a full R package > implementing this methodology — with a formula interface, > cluster bootstrap, simultaneous confidence bands, two-sample > tests, and support for recovery models — see > [clusteredMSM](https://github.com/gbakoyannis/clusteredMSM), > available on CRAN. > > This repository is preserved as the artifact cited in the > original paper. New users should use clusteredMSM instead. [... rest of original README ...]
+
 # clustered-multistate
 R code for nonparametric analysis of clustered multistate processes (Bakoyannis, 2021; https://onlinelibrary.wiley.com/doi/10.1111/biom.13327).
 
